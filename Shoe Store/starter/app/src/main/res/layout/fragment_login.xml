@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightGray"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/small_magrin"
+        tools:context=".LoginFragment">
+
+
+        <EditText
+            android:id="@+id/enter_email"
+            style="@style/login_field"
+            android:hint="@string/emailHint"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/enter_password"
+            style="@style/login_field"
+            android:hint="@string/passwordHint"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/mid_margin"
+            android:layout_marginBottom="@dimen/small_magrin"
+            android:background="@drawable/rounded_button"
+            android:text="@string/Login"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/signUp_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small_magrin"
+            android:background="@drawable/rounded_button"
+            android:text="@string/SignUp"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</layout>
