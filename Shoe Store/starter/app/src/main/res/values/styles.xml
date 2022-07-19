@@ -12,6 +12,11 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <!--To fix rendering in preview -->
+    <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
@@ -32,6 +37,24 @@
         <item name="android:background">@drawable/custom_instructions_textview</item>
         <item name="android:padding">@dimen/mid_margin</item>
         <item name="android:textAlignment">textStart</item>
+    </style>
+
+    <style name="shoe_details_field_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/big_margin</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="shoe_details_edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/mid_margin</item>
+        <item name="android:background">@drawable/custom_shoes_details_edittext</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">@dimen/small_magrin</item>
     </style>
 
 </resources>
