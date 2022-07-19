@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Projects/Shoe-Store-Inventory-App/Shoe Store Inventory App/starter/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Shoe Store Inventory App/Shoe-Store-Inventory-App/Shoe Store/starter/app/src/main/res/drawable/custom_instructions_textview.xml" value="0.2703125" />
         <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Shoe Store Inventory App/Shoe-Store-Inventory-App/Shoe Store/starter/app/src/main/res/drawable/rounded_button.xml" value="0.262037037037037" />
         <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Shoe Store Inventory App/Shoe-Store-Inventory-App/Shoe Store/starter/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Shoe Store Inventory App/Shoe-Store-Inventory-App/Shoe Store/starter/app/src/main/res/layout/fragment_instruction.xml" value="0.25416666666666665" />
         <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Shoe Store Inventory App/Shoe-Store-Inventory-App/Shoe Store/starter/app/src/main/res/layout/fragment_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Shoe Store Inventory App/Shoe-Store-Inventory-App/Shoe Store/starter/app/src/main/res/layout/fragment_welcome.xml" value="0.25" />
         <entry key="..\:/Android/FWD Advanced Andorid Kotlin Course/Shoe Store Inventory App/Shoe-Store-Inventory-App/starter/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
       </map>
     </option>

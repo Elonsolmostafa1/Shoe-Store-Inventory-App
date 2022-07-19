@@ -6,4 +6,14 @@
     <string name="SignUp">Create an email</string>
     <string name="emailHint">Email</string>
     <string name="passwordHint">Password</string>
+    <string name="username">username</string>
+    <string name="welcome">Hey, Welcome</string>
+    <string name="welcome_page_text">Here at ‘Elonsol Shop‘ we realize that style
+        and prosperity begin with the correct shoes. We likewise understand that
+        effectively finding the size and style to meet your requirements is vital
+        to your web-based shopping knowledge.</string>
+    <string name="instruction_text1">You can specify shoe Name, Company, Shoe Size and Description</string>
+    <string name="instruction_text0">In our shop, you will find different types of shoes to choose from</string>
+    <string name="instructions_text2">Then add to Shoe List</string>
+    <string name="get_started">get started</string>
 </resources>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
@@ -14,11 +13,18 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_gravity="center"
-            android:background="@color/lightGray"
             android:orientation="vertical"
-            android:padding="@dimen/small_magrin"
-            tools:context=".LoginFragment">
+            android:padding="@dimen/mid_margin"
+            tools:context=".WelcomeFragment">
 
+            <TextView
+                android:id="@+id/welcome_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/mid_margin"
+                android:text="@string/welcome"
+                android:textSize="34sp"
+                android:textStyle="bold" />
 
             <com.airbnb.lottie.LottieAnimationView
                 android:layout_width="wrap_content"
@@ -26,40 +32,26 @@
                 android:layout_marginBottom="@dimen/mid_margin"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                app:lottie_rawRes="@raw/shoe" />
+                app:lottie_rawRes="@raw/shoes_in_welcome" />
 
-            <EditText
-                android:id="@+id/enter_email"
-                style="@style/login_field"
-                android:hint="@string/emailHint"
-                android:inputType="textEmailAddress"
-                android:minHeight="48dp" />
-
-            <EditText
-                android:id="@+id/enter_password"
-                style="@style/login_field"
-                android:hint="@string/passwordHint"
-                android:inputType="textPassword"
-                android:minHeight="48dp" />
-
-            <Button
-                android:id="@+id/login_button"
+            <TextView
+                android:id="@+id/paragraph_welcome_page"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/mid_margin"
-                android:layout_marginBottom="@dimen/small_magrin"
-                android:background="@drawable/rounded_button"
-                android:text="@string/Login"
-                android:textColor="@color/white" />
+                android:layout_marginBottom="@dimen/big_margin"
+                android:text="@string/welcome_page_text"
+                android:textAlignment="center"
+                android:textSize="16sp" />
 
             <Button
-                android:id="@+id/signUp_button"
+                android:id="@+id/next_button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/small_magrin"
+                android:layout_marginTop="@dimen/big_margin"
                 android:background="@drawable/rounded_button"
-                android:text="@string/SignUp"
+                android:text="Next"
                 android:textColor="@color/white" />
+
 
         </LinearLayout>
     </ScrollView>

@@ -21,8 +21,17 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">@dimen/small_magrin</item>
         <item name="android:background">@color/white</item>
-        <item name="android:inputType">textEmailAddress</item>
         <item name="android:padding">@dimen/small_magrin</item>
+    </style>
+
+    <style name="instruction_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/small_magrin</item>
+        <item name="android:background">@drawable/custom_instructions_textview</item>
+        <item name="android:padding">@dimen/mid_margin</item>
+        <item name="android:textAlignment">textStart</item>
     </style>
 
 </resources>
