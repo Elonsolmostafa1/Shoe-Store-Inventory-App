@@ -19,6 +19,10 @@ class ShoeShopViewModel : ViewModel(){
         shoeObject = Shoe("","","","")
     }
 
+    override fun onCleared() {
+        super.onCleared()
+    }
+
 
 
 }
