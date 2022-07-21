@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<!-- scrollView to scroll and see all list items-->
+
+<!-- Linear layout because the design have some views organized only vertically so I
+ found that no need to make it constraint layout, I can but no need I think Linearlayout
+   is enough-->
+
+<!-- coordinatorlayout to but the FAB in left bottom corner only -->
+
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">

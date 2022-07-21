@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- scrollView only to make make my app work in case of Landscape because I didn't
+   create special layout for Landscape case so I do that to make the user having the
+   ability to use the app in Landscape although poor layout in landscape but it still
+   working better than the case I didn't do that-->
+
+<!-- Linear layout because the design have some views organized only vertically so I
+ found that no need to make it constraint layout, I can but no need I think Linearlayout
+   is enough-->
+
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">

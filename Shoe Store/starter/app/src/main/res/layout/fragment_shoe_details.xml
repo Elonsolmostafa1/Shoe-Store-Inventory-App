@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Here I used constraintLayout because I want to organize view vertically and
+    and horizontally so if I use nested LinearLayout it will be more complex so I
+    used constraintLayout -->
+ <!-- scrollView only to make make my app work in case of Landscape because I didn't
+   create special layout for Landscape case so I do that to make the user having the
+   ability to use the app in Landscape although poor layout in landscape but it still
+   working better than the case I didn't do that-->
+
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
