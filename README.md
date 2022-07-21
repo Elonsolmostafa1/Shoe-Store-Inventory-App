@@ -1,7 +1,7 @@
 # Shoe-Store-Inventory-App
 The goal is to build an app that challenges the layouts and the navigation features and using viewModel and liveData
 
-Screenshots
+# Screenshots
 
 
 ![1](https://user-images.githubusercontent.com/62807830/180287735-b0430ea1-129d-42b5-9dec-926b3af4e84d.png)
