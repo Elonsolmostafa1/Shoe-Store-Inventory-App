@@ -20,6 +20,10 @@ class ShoeShopViewModel : ViewModel(){
         shoeObject = Shoe("","","","")
     }
 
+    fun resetShoeList(){
+        _shoeItemsList.value = mutableListOf()
+    }
+
     override fun onCleared() {
         super.onCleared()
     }
