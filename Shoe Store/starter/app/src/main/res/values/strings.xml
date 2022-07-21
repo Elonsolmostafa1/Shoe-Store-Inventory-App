@@ -16,4 +16,16 @@
     <string name="instruction_text0">In our shop, you will find different types of shoes to choose from</string>
     <string name="instructions_text2">Then add to Shoe List</string>
     <string name="get_started">get started</string>
+    <string name="next">Next</string>
+    <string name="show_details_text">Shoes Details</string>
+    <string name="name">Name</string>
+    <string name="enter_shoes_name_hint">enter shoes name</string>
+    <string name="company">Company</string>
+    <string name="enter_shoes_company_hint">enter shoes company</string>
+    <string name="size">Size</string>
+    <string name="enter_shoes_size_hint">enter shoes size</string>
+    <string name="description">Description</string>
+    <string name="enter_shoes_description">enter shoes description</string>
+    <string name="save">Save</string>
+    <string name="cancel">cancel</string>
 </resources>

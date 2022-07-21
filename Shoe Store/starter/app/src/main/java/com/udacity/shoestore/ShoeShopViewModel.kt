@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.udacity.shoestore.models.Shoe
 
 class ShoeShopViewModel : ViewModel(){
+
     private val _shoeItemsList = MutableLiveData<MutableList<Shoe>>()
     val shoeItemsList : LiveData<MutableList<Shoe>> get() = _shoeItemsList
     var shoeObject = Shoe("","","","")

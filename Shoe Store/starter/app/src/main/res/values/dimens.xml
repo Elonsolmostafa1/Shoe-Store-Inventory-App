@@ -4,4 +4,5 @@
     <dimen name="mid_margin">16dp</dimen>
     <dimen name="big_margin">32dp</dimen>
     <dimen name="text_size">18sp</dimen>
+    <dimen name="shoeDetails_text_size">34sp</dimen>
 </resources>

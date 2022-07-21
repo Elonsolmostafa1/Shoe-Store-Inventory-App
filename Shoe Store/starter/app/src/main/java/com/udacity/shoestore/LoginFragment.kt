@@ -22,6 +22,7 @@ class LoginFragment : Fragment() {
             container, false
         )
 
+        // Login and Sign up clickListeners
         binding.loginButton.setOnClickListener {
             findNavController().navigate(LoginFragmentDirections.actionLoginFragment2ToWelcomeFragment())
         }
@@ -29,6 +30,7 @@ class LoginFragment : Fragment() {
         binding.signUpButton.setOnClickListener {
             findNavController().navigate(LoginFragmentDirections.actionLoginFragment2ToWelcomeFragment())
         }
+
         return binding.root
     }
 

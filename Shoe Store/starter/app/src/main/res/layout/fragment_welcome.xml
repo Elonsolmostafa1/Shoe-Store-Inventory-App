@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/big_margin"
                 android:background="@drawable/rounded_button"
-                android:text="Next"
+                android:text="@string/next"
                 android:textColor="@color/white" />
 
 

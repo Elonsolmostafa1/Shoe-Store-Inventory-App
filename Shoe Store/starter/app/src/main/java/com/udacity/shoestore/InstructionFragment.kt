@@ -19,6 +19,8 @@ class InstructionFragment : Fragment() {
         // Inflate the layout for this fragment
         val binding: FragmentInstructionBinding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_instruction, container, false)
+
+        //getStarted button clickListener
         binding.getStartedButton.setOnClickListener {
             findNavController().navigate(InstructionFragmentDirections.actionInstructionFragmentToShoeListFragment())
         }

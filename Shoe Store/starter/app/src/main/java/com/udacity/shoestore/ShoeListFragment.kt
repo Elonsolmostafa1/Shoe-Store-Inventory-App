@@ -28,8 +28,10 @@ class ShoeListFragment : Fragment() {
         binding.addShoeButton.setOnClickListener {
             findNavController().navigate(ShoeListFragmentDirections.actionShoeListFragmentToShoeDetailsFragment())
         }
-
+        // Link the UI Controller and ShoeShopViewModel
         viewModel = ViewModelProvider(requireActivity()).get(ShoeShopViewModel::class.java)
+
+        //Observe the Subject (List of shoes) and then add the new items as view using addView method
         viewModel.shoeItemsList.observe(viewLifecycleOwner, Observer { shoesList ->
             shoesList.forEach {
                 val myLayout = binding.showListLayout
@@ -39,15 +41,13 @@ class ShoeListFragment : Fragment() {
                 view.shoe_company_data.text = it.company
                 view.shoe_description_data.text = it.description
                 myLayout.addView(view)
-
             }
-
         })
 
         setHasOptionsMenu(true)
         return binding.root
     }
-
+    //These methods are for overflow menu with logout item
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater?.inflate(R.menu.overflow_menu,menu)
