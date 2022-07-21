@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/small_magrin"
+    android:background="@color/white"
+    android:padding="@dimen/mid_margin"
+    android:scrollbarSize="16sp">
+
+    <TextView
+        android:id="@+id/shoes_name_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="LLLFM22"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/shoes_size_data"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/shoe_company_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Addidas"
+        android:textColor="@color/buttonStartColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/shoes_size_data"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoes_name_data" />
+
+    <TextView
+        android:id="@+id/shoes_size_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/mid_margin"
+        android:background="@drawable/rounded_button"
+        android:padding="@dimen/small_magrin"
+        android:text="45"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/shoe_vector_image_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shoe_description_data"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/small_magrin"
+        android:text="it's a good shoes and its color is red and have good appearance"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toStartOf="@+id/shoes_size_data"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoe_company_data" />
+
+    <ImageView
+        android:id="@+id/shoe_vector_image_view"
+        android:layout_width="121dp"
+        android:layout_height="129dp"
+        app:layout_constraintBottom_toBottomOf="@+id/shoe_description_data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shoes_vector_third" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

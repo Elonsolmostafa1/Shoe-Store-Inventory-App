@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/loginFragment2">
+    app:startDestination="@id/LoginFragment2">
     <fragment
-        android:id="@+id/loginFragment2"
+        android:id="@+id/LoginFragment2"
         android:name="com.udacity.shoestore.LoginFragment"
         android:label="LoginFragment" >
         <action
@@ -15,7 +15,7 @@
             app:exitAnim="@anim/slide_out_right"
             app:popEnterAnim="@anim/slide_in_right"
             app:popExitAnim="@anim/slide_out_left"
-            app:popUpTo="@id/loginFragment2"
+            app:popUpTo="@id/LoginFragment2"
             app:popUpToInclusive="true" />
     </fragment>
     <fragment
@@ -54,11 +54,26 @@
             app:enterAnim="@anim/slide_in_left"
             app:exitAnim="@anim/slide_out_right"
             app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
             app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_shoeListFragment_to_LoginFragment2"
+            app:destination="@id/LoginFragment2"
+            app:popUpTo="@id/navigation" />
     </fragment>
     <fragment
         android:id="@+id/shoeDetailsFragment"
         android:name="com.udacity.shoestore.ShoeDetailsFragment"
         android:label="fragment_shoe_details"
-        tools:layout="@layout/fragment_shoe_details" />
+        tools:layout="@layout/fragment_shoe_details" >
+        <action
+            android:id="@+id/action_shoeDetailsFragment_to_shoeListFragment"
+            app:destination="@id/shoeListFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@id/navigation"
+            app:popUpToInclusive="true" />
+    </fragment>
 </navigation>

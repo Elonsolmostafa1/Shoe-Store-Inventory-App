@@ -4,6 +4,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <data>
+        <variable
+            name="viewModel"
+            type="com.udacity.shoestore.ShoeShopViewModel" />
+    </data>
+
+
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -30,10 +37,12 @@
 
 
             <LinearLayout
+                android:id="@+id/show_list_layout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/lightGray"
                 android:orientation="vertical"
+                android:paddingTop="60dp"
                 tools:context=".ShoeListFragment">
 
 
