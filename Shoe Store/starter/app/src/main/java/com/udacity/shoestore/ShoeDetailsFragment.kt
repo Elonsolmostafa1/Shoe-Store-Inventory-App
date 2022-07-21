@@ -33,6 +33,11 @@ class ShoeDetailsFragment : Fragment() {
 
         binding.cancelButton.setOnClickListener {
             findNavController().navigate(ShoeDetailsFragmentDirections.actionShoeDetailsFragmentToShoeListFragment())
+            binding.enterDescription.text.clear()
+            binding.enterSize.text.clear()
+            binding.enterName.text.clear()
+            binding.enterCompany.text.clear()
+
         }
 
         return binding.root
